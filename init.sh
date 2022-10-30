@@ -19,6 +19,8 @@ apt purge -y language-pack-de language-pack-de-base \
 apt purge -y libreoffice-base-core libreoffice-common libreoffice-core \
     libreoffice-calc libreoffice-draw libreoffice-gnome libreoffice-gtk3
     libreoffice-help-common libreoffice-help-de libreoffice-help-en-gb libreoffice-help-en-us libreoffice-help-es libreoffice-help-fr libreoffice-help-it libreoffice-help-pt libreoffice-help-pt-br libreoffice-help-ru \
+    hyphen-de hyphen-en-ca hyphen-en-gb hyphen-en-us hyphen-fr hyphen-it hyphen-pt-br hyphen-pt-pt hyphen-ru \
+    mythes-common mythes-de mythes-de-ch mythes-en-au mythes-en-us mythes-fr mythes-it mythes-pt-pt mythes-ru
 
 # remove unnecessary
 apt purge -y duplicity \
