@@ -23,8 +23,14 @@ apt purge -y libreoffice-base-core libreoffice-common libreoffice-core \
     mythes-common mythes-de mythes-de-ch mythes-en-au mythes-en-us mythes-fr mythes-it mythes-pt-pt mythes-ru
 
 # remove unnecessary
-apt purge -y duplicity \
+apt purge -y duplicity deja-dup deja-dup-caja \
     transmission-gtk transmission-common \
+    ffmpeg ffmpegthumbnailer \
+    firefox-locale-de firefox-locale-es firefox-locale-fr firefox-locale-it firefox-locale-pt firefox-locale-ru \
+    evolution evolution-common evolution-data-server evolution-data-server-common evolution-rss evolution-plugins \
+    apport \
+    build-essential cpp cpp-9 gcc gcc-9 gcc-9-base g++ g++-9 \
+    hunspell-de-at hunspell-de-de hunspell-en-au hunspell-en-ca hunspell-en-gb hunspell-en-us hunspell-en-za hunspell-es hunspell-fr hunspell-fr-classicall hunspell-it hunspell-pt-br hunspell-pt-pt
 
 
 # common file utilities
