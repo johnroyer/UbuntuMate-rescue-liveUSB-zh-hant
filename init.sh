@@ -35,6 +35,7 @@ apt purge -y duplicity deja-dup deja-dup-caja \
 
 
 # common file utilities
+apt install -y unzip rar unrar
 
 # common shell tools
 apt install -y screen tmux mosh zsh fish
