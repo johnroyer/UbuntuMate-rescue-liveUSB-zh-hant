@@ -13,7 +13,8 @@ apt purge -y language-pack-de language-pack-de-base \
     language-pack-gnome-ru language-pack-gnome-ru-base \
     language-pack-gnome-it language-pack-gnome-it-base \
     language-pack-gnome-pt language-pack-gnome-pt-base \
-    language-pack-gnome-ru language-pack-gnome-ru-base
+    language-pack-gnome-ru language-pack-gnome-ru-base \
+    uno
 
 # remove libreoffice
 apt purge -y libreoffice-base-core libreoffice-common libreoffice-core \
