@@ -32,7 +32,8 @@ apt purge -y duplicity deja-dup deja-dup-caja \
     apport redshift simple-scan \
     speech-dispatcher speech-dispatcher-audio-plugin speech-dispatcher-espeak-ng \
     build-essential cpp cpp-9 gcc gcc-9 gcc-9-base g++ g++-9 \
-    hunspell-de-at hunspell-de-de hunspell-en-au hunspell-en-ca hunspell-en-gb hunspell-en-us hunspell-en-za hunspell-es hunspell-fr hunspell-fr-classicall hunspell-it hunspell-pt-br hunspell-pt-pt
+    hunspell-de-at hunspell-de-de hunspell-en-au hunspell-en-ca hunspell-en-gb hunspell-en-us hunspell-en-za hunspell-es hunspell-fr hunspell-fr-classicall hunspell-it hunspell-pt-br hunspell-pt-pt \
+    wamerican wbrazillian wbritish wfrence witalian wngerman wogerman wportuhuess wspanish wswiss
 
 
 # common file utilities
