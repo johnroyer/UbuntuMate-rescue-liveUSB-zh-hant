@@ -44,11 +44,14 @@ apt install -y unzip rar unrar \
 apt install -y screen tmux mosh zsh fish
 
 # common monitors
-apt install -y htop btop sysstat net-tools iftop iftop iotop
+apt install -y htop btop sysstat iotop
 
 # common disk utilities
 apt install -y gdisk gparted baobab smartmontools gsmartcontrol testdisk gnome-disk-utility \
     zfs-fuse zfsutils-linux \
+
+# network tools
+apt install -y net-tools iftop nmap
 
 # evironment translation
 apt install -y firefox-locale-zh-hant
