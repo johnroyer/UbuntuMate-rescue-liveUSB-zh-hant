@@ -1,7 +1,8 @@
 # organize language packs
 apt install -y language-pack-zh-hant language-pack-zh-hant-base \
     language-pack-gnome-zh-hant language-pack-gnome-zh-hant-base \
-    firefox-locale-zh-hant \
+    firefox-locale-zh-hant
+
 apt purge -y language-pack-de language-pack-de-base \
     language-pack-es language-pack-es-base \
     language-pack-fr language-pack-fr-base \
@@ -48,7 +49,7 @@ apt install -y htop btop sysstat iotop
 
 # common disk utilities
 apt install -y gdisk gparted baobab smartmontools gsmartcontrol testdisk gnome-disk-utility \
-    zfs-fuse zfsutils-linux \
+    zfs-fuse zfsutils-linux
 
 # network tools
 apt install -y net-tools iftop nmap
