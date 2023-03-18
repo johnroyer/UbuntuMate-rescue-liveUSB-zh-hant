@@ -49,7 +49,8 @@ apt install -y htop btop sysstat iotop
 
 # common disk utilities
 apt install -y gdisk gparted baobab smartmontools gsmartcontrol testdisk gnome-disk-utility \
-    zfs-fuse zfsutils-linux
+    zfs-fuse zfsutils-linux \
+    dislocker
 
 # network tools
 apt install -y net-tools iftop nmap
